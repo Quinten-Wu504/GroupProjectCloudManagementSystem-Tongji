@@ -2,6 +2,8 @@
 
 A web application for coordinating student team projects, developed for a Software Engineering course at Tongji University.
 
+![Login screen of the Group Project Cloud Management System](docs/images/login-screen.png)
+
 ## Features
 
 - Account registration, password and verification-code login, and profile management.
