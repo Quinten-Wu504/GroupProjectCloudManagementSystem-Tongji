@@ -1,0 +1,41 @@
+import axios from "axios";
+
+axios.defaults.baseURL = process.env.VUE_APP_API_BASE_URL || "http://localhost:8080";
+
+export const getAction = (url,params) => {
+    return axios({
+        url:url,
+        method:"get",
+        params
+    })
+}
+export const postAction = (url,data) => {
+    return axios({
+        url:url,
+        method:"post",
+        data
+    })
+}
+export const putAction = (url,data) => {
+    return axios({
+        url:url,
+        method:"put",
+        data
+    })
+}
+export const deleteAction = (url,params) => {
+    return axios({
+        url: url,
+        method: "delete",
+        params
+    })
+}
+
+export const downloadAction = (url, data) => {
+    return axios({
+        url: url,
+        method: "post",
+        responseType: "blob",
+        data
+    });
+};

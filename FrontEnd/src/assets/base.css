@@ -1,0 +1,48 @@
+.btn1 {
+    border: none !important;
+    background: #99bb7f !important;
+    font-size: 120% !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    padding: 7px 20px !important;
+    margin: 5px auto !important;
+    position: relative !important;
+    border-radius: 4px !important;
+}
+
+.btn1:hover {
+    color: #fff !important;
+    background: #418516 !important;
+}
+
+.btn2 {
+    background: #fff;
+    border: 2px solid #99bb7f;
+    color: #7f9b7e;
+    justify-content: center;
+    margin-top: 0;
+    position: relative;
+    border-radius: 8px;
+}
+
+.btn2:hover {
+    border: none;
+    color: #fff;
+    background: #418516;
+}
+
+/* 对话框确认按钮用 */
+.btn4 {
+    border: none !important;
+    background: #99bb7f !important;
+    color: #fff !important;
+    padding: 7px 20px !important;
+    margin: 5px 5px 5px 15px !important;
+    position: relative !important;
+    border-radius: 4px !important;
+}
+
+.btn4:hover {
+    color: #fff !important;
+    background: #418516 !important;
+}

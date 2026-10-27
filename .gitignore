@@ -1,0 +1,31 @@
+# Dependencies and build output
+node_modules/
+target/
+dist/
+*.class
+*.log
+*.zip
+
+# Editor and machine-specific files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+.local-private/
+
+# Runtime uploads and personal data
+/BackEnd/images/
+/BackEnd/resources/
+
+# Course deliverables
+*.pdf
+*.mp4
+*.avi
+*.mov
+*.pptx
+*.docx
+*.xlsx
